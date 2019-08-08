@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {ShoahCommonsModule} from 'shoah-commons';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,ShoahCommonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
